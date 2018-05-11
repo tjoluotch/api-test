@@ -32,10 +32,10 @@ exports.create = (req, res) => {
     //using mysql
 
     var connection = mysql.createConnection({
-        host: 'localhost',
-        user: 'root',
-        password: '1234',
-        database: 'new_schema'
+        host: 'aaizrlfd4lqxjj.co442iyfmcnt.us-east-2.rds.amazonaws.com',
+        user: 'ray',
+        password: 'WbcFqMsBf55srN4R',
+        database: 'convo'
     });
     connection.connect(function (err) {
         if (err) throw err;
